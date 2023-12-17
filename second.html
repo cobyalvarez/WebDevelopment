@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <label for="query">Google</label>:<input id="query" name="q" value="" placeholder="bruh" size="20" maxlength="20"/>
+        <fieldset>
+            <legend>Address</legend>
+            Street: <input type="text" name="street"/>
+            City: <input type="text" name="city"/>
+            Zip: <input type="text" name="zip"/>
+        </fieldset>
+        <br>Favorite color:<br>
+        <input type="radio" name="color" value="red">Red <br>
+        <input type="radio" name="color" value="green">Green <br>
+        <input type="radio" name="color" value="blue">Blue <br>
+        Your comments:
+        <textarea name="comments" rows="5" cols="3"></textarea> 
+        <select name="grade">
+            <optgroup label="bruh">
+            <option value="good">good</option>
+            <option value="bad" selected>bad</option>
+        </optgroup>
+        </select>
+        <input type="submit" name="search" value="Search" />
+    </form>
+</body>
+</html>
